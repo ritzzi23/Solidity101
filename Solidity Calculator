@@ -1,0 +1,29 @@
+Calculator in Solidity
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.10;
+
+contract calculation{
+    function addition(uint _x,uint _y) public pure returns(uint){
+        uint a = _x;
+        uint b = _y;
+        return (a+b);
+
+
+    }
+    function subtraction(uint _x,uint _y) public pure returns(uint){
+        uint a = _x;
+        uint b = _y;
+        return (a-b);
+    }
+    function multiplication(uint _x,uint _y) public pure returns(uint){
+        uint a = _x;
+        uint b = _y;
+        return (a*b);
+    }
+    function division(uint _x,uint _y) public pure returns(uint){
+        uint a = _x;
+        uint b = _y;
+        return (a/b);
+    }
+}
